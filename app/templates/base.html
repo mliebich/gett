@@ -1,0 +1,19 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - Gett</title>
+      {% else %}
+      <title>Willkommen bei Gett</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Gett:
+        <a href="/index">Home</a>
+        <a href="/login">Login</a>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+        <div>
+</div>
+    </body>
+</html>

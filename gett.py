@@ -1,2 +1,2 @@
-from gettapp import app
+from app import app
 
